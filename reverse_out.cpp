@@ -1,7 +1,6 @@
 #include <cstdio>
 
 #define MAX_N 100
-
 int numbers[MAX_N];
 
 int main()
