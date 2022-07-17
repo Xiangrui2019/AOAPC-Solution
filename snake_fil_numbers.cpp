@@ -12,6 +12,7 @@ int main()
     x = 0, y = n - 1; // 放置填充的初始位置
     array[x][y] = 1;
 
+    // (x, y)上一个填写的坐标
     while (cnt < n * n)
     {
         // 向下填充
