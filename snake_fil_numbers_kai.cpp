@@ -25,15 +25,15 @@ int main()
 
         /**
         *  向左填写
-        *  (y, start_y] 是已经填写的部分 [offset - 1, y] 未填写部分
-        *  最终我们将会(offset, start_y]填写完
+        *  (y, start_y] 是已经填写的部分 (offset - 1, y] 未填写部分
+        *  最终我们将会(offset - 1, start_y]填写完
         */
         for (y = start_y; y > offset - 1; y--) array[x][y] = cnt++;
 
         /**
         *  向上填写
         *  (x, 进入循环之前的x] 是已经填写的部分 (offset - 1, x] 是未填写部分
-        *  最终我们将会(offset, 进入循环前的x]填写完
+        *  最终我们将会(offset - 1, 进入循环前的x]填写完
         */
         for (; x > offset - 1; x--) array[x][y] = cnt++;
 
