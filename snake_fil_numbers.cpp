@@ -1,3 +1,4 @@
+// 蛇形填数(左开右闭)
 #include <cstdio>
 #include <cstring>
 
