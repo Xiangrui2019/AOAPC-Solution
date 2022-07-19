@@ -13,8 +13,9 @@ int main()
         
         printf("Case %d: %d.", kase, mer);
         // 循环不变量: 
-        // 1. rem始终是余数
+        // 1. rem始终是上一步的余数
         // 2. mer始终是上一步的商
+        // 运行到最后的时候: rem是最后一步的余数  mer是上一步的商
         for (; cnt <= c + 1; cnt++)
         {
             rem *= 10;
