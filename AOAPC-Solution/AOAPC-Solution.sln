@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AOAPC-Solution", "AOAPC-Solution\AOAPC-Solution.vcxproj", "{1DB16D24-DB0E-44C3-8357-19E5344C061C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DB16D24-DB0E-44C3-8357-19E5344C061C}.Debug|x64.ActiveCfg = Debug|x64
+		{1DB16D24-DB0E-44C3-8357-19E5344C061C}.Debug|x64.Build.0 = Debug|x64
+		{1DB16D24-DB0E-44C3-8357-19E5344C061C}.Debug|x86.ActiveCfg = Debug|Win32
+		{1DB16D24-DB0E-44C3-8357-19E5344C061C}.Debug|x86.Build.0 = Debug|Win32
+		{1DB16D24-DB0E-44C3-8357-19E5344C061C}.Release|x64.ActiveCfg = Release|x64
+		{1DB16D24-DB0E-44C3-8357-19E5344C061C}.Release|x64.Build.0 = Release|x64
+		{1DB16D24-DB0E-44C3-8357-19E5344C061C}.Release|x86.ActiveCfg = Release|Win32
+		{1DB16D24-DB0E-44C3-8357-19E5344C061C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {463C73C3-D2D7-4C9B-AB5A-453DBC9F7391}
+	EndGlobalSection
+EndGlobal
